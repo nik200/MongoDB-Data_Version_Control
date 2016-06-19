@@ -1,0 +1,6 @@
+package com.plantiss.mongoadapter.objects;
+
+public enum RequestType {
+	CHECKIN, CHECKOUT, STATUS, UPSERTONE, FIND, REMOVEONE, FINDVER, REGISTER, UNREGISTER,
+	CHECKIN_HISTORY, CHECKIN_HISTORY_ONE;
+}

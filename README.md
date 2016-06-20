@@ -39,10 +39,10 @@ To subscribe for notification service, client applications needs to instantiate 
 
 MongoVC server needs to be setup and started. A mongoVC service instance manages data version in all the collections of a single db. Class `com.plantiss.mongoadapter.server.RequestHandler` needs to be executed to start the server. Following JRE varaibles can be specified during th startup - 
 
-`mongovc.service.port` - port on which MongoVC server needs to be started. Default value - 25000
-`mongovc.db.name` - MongoDB database name on which version control needs to be implemented. Default - repo
-`mongovc.db.port` - MongoDB port. Default - 27017
-`mongovc.db.host` - MongoDB host. Default - localhost
+- `mongovc.service.port` - port on which MongoVC server needs to be started. Default value - 25000
+- `mongovc.db.name` - MongoDB database name on which version control needs to be implemented. Default - repo
+- `mongovc.db.port` - MongoDB port. Default - 27017
+- `mongovc.db.host` - MongoDB host. Default - localhost
   
 ## Constraints
 
